@@ -1,0 +1,80 @@
+//
+// Buttons
+//
+
+// Dependencies
+@import "./variables";
+
+button {
+    font-family: $primary-font-family;
+    border: 0;
+    background: none;
+    box-shadow: none;
+    user-select: none;
+    cursor: pointer;
+
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: none;
+        outline: none;
+    }
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    box-shadow: none;
+    display: inline-block;
+    position: relative;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    white-space: pre;
+    padding: 8px 20px;
+    background-color: $color-white;
+    border: 1px solid transparentize($color-black, .8);
+    color: $text-color-inverted;
+    transition: background 80ms ease-in-out;
+
+    * {
+        user-select: none;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+        background-color: darken($color-white, 5%);
+    }
+
+    &:active {
+        background-color: darken($color-white, 10%);
+    }
+
+    // Primary
+    &.button--primary {
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 1px solid transparentize($color-black, .8);
+      color: $text-color;
+      background-color: $color-primary;
+
+      &:hover,
+      &:focus {
+          background-color: $color-primary-20-black;
+      }
+
+      &:active {
+          background-color: $color-primary-40-black;
+      }
+    }
+
+    &.button--default {
+      text-transform: uppercase;
+    }
+}

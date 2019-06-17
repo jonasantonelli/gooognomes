@@ -1,0 +1,33 @@
+@import "../../../../__core__/ui/variables";
+
+.gnome {
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+  }
+
+  &__list {
+    flex: 3;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  &__filter {
+    padding: 10px 20px;
+    flex: 1;
+  }
+}
+
+@media screen and (min-device-width: $tablet-min-width) {
+  .gnome {
+    &__content {
+      flex-direction: row;
+    }
+
+    &__list {
+      margin-top: 0;
+    }
+  }
+}

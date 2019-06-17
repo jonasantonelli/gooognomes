@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail Component should match snapshot 1`] = `
+<div
+  className="detail"
+>
+  <NavLink
+    className="close"
+    to="/list"
+  >
+    <svg
+      height="40"
+      viewBox="0 0 24 24"
+      width="40"
+    >
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+        fill="#ffffff"
+      />
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+    </svg>
+  </NavLink>
+  <div
+    className="detail__thumbnail"
+  >
+    <img
+      alt="Midwig Gyroslicer"
+      src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
+    />
+  </div>
+  <div
+    className="detail__info"
+  >
+    <div
+      className="detail__name"
+    >
+      Midwig Gyroslicer
+    </div>
+    <div
+      className="detail__age"
+    >
+      Age: 
+      240
+    </div>
+    <div
+      className="detail__hair"
+    >
+      Hair Color: 
+      Red
+    </div>
+    <div
+      className="detail__weight"
+    >
+      Weight: 
+      40.97596
+    </div>
+    <div
+      className="detail__height"
+    >
+      Height: 
+      127.88554
+    </div>
+    <div
+      className="detail__professions"
+    >
+      Professions: 
+      Carpenter, Farmer, Stonecarver, Brewer, Tax inspector, Prospector
+    </div>
+    <div
+      className="detail__friends"
+    >
+      Friends: 
+      Sarabink Tinkbuster, Tinadette Wrongslicer
+    </div>
+  </div>
+</div>
+`;

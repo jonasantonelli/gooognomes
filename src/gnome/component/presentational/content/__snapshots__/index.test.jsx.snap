@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content Component should match snapshot 1`] = `
+<div
+  className="gnome__content"
+>
+  <div
+    className="gnome__filter"
+  >
+    <Filter
+      handleClearFilter={[Function]}
+      handleFilter={[Function]}
+      maxAge={100}
+      minAge={0}
+      professions={Array []}
+      range={
+        Object {
+          "max": 100,
+          "min": 0,
+        }
+      }
+    />
+  </div>
+  <div
+    className="gnome__list"
+  >
+    <List
+      data={Array []}
+    />
+  </div>
+</div>
+`;

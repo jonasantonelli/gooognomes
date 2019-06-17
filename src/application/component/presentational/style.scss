@@ -1,0 +1,18 @@
+
+@import "../../../__core__/ui/variables";
+@import "../../../__core__/ui/normalize";
+@import "../../../__core__/ui/buttons";
+
+body {
+  color: $text-color;
+}
+
+body,
+main {
+    background: $bg-color;
+}
+
+main {
+    max-width: $wide-min-width;
+    margin: auto;
+}

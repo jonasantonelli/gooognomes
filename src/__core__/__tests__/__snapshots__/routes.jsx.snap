@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Router.jsx component should match snapshot 1`] = `
+<Switch
+  key="page-switch"
+  location={
+    Object {
+      "hash": "",
+      "pathname": "/list",
+      "search": "",
+      "state": undefined,
+    }
+  }
+>
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/"
+  />
+  <Route
+    component={[Function]}
+    exact={true}
+    path="/#"
+  />
+  <Route
+    component={[Function]}
+    key="gnomes-list"
+    path="/list"
+  />
+  <Route
+    component={[Function]}
+    key="gnomes-details"
+    path="/details/:id"
+  />
+</Switch>
+`;

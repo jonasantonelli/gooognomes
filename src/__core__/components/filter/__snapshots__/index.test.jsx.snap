@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loadin Component should match snapshot 1`] = `
+<div
+  className="filter"
+>
+  <Age
+    handleChange={[Function]}
+    maxAge={100}
+    minAge={0}
+    range={
+      Object {
+        "max": 100,
+        "min": 0,
+      }
+    }
+  />
+  <Professions
+    handleCheck={[Function]}
+    professions={Array []}
+  />
+  <button
+    button="button"
+    className="button button--primary"
+    onClick={[Function]}
+  >
+    Apply filter
+  </button>
+  <button
+    button="button"
+    className="button button--default"
+    onClick={[Function]}
+  >
+    Clear filter
+  </button>
+</div>
+`;

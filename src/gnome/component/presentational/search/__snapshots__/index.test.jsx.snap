@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component should match snapshot 1`] = `
+<div
+  className="search"
+>
+  <input
+    autoComplete="off"
+    name="search"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Gnomes..."
+    type="text"
+  />
+  <button
+    onClick={[Function]}
+    type="button"
+  >
+    Clean
+  </button>
+</div>
+`;

@@ -1,0 +1,10 @@
+node_modules/
+build/
+public/
+.idea/
+.vscode/
+
+yarn.lock
+
+# Thumbnails
+._*

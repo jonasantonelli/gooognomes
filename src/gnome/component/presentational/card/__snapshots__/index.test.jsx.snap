@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component should match snapshot 1`] = `
+<NavLink
+  className="card"
+  to="/details/1"
+>
+  <img
+    alt="Test"
+    src="http://www.publicdomainpictures.net/pictures/10000/nahled/1-1275919724d1Oh.jpg"
+  />
+  <div
+    className="card__info"
+  >
+    <div
+      className="card__title"
+    >
+      Test
+    </div>
+    <div
+      className="card__age"
+    >
+      Age: 
+      100
+    </div>
+  </div>
+</NavLink>
+`;
